@@ -1,10 +1,20 @@
 # Discord Spammer
 
+## Description
+
 This is a small file used to make staggered requests to the Discord messages API forcing an account to send messages in a specified channel on a set interval.
 
 Discord Spammer is **not** a Discord Bot. In order to use this you must make a throwaway account and use that account's authentication token.
 
-## Instructions
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Questions](#questions)
+
+## Installation
 
 ### Using This Code
 
@@ -43,3 +53,13 @@ Discord Spammer is **not** a Discord Bot. In order to use this you must make a t
 3. Right click on the channel you want to spam in and at the bottom click on `Copy Channel ID` (It might be best to create a dedicated spam channel that only this account can type in).
 
 4. Paste this Channel ID into the CHANNEL_ID variable of your .env file
+
+## Questions
+
+If you have an questions about the app or would like to contribute in any way please feel free to reach out to me!
+
+Email:
+>[muratoreh@gmail.com](mailto:muratoreh@gmail.com?subject=[GitHub]%20Form%20Forwarder)
+
+GitHub account:
+>[https://github.com/HunterMuratore](https://github.com/HunterMuratore)
