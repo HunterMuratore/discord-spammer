@@ -8,13 +8,15 @@ Discord Spammer is **not** a Discord Bot. In order to use this you must make a t
 
 ### Using This Code
 
-1. Copy this repo onto your local system and run `npm i` to install all dependencies.
+1. Clone this repo onto your local system.
 
-2. Create a .env file and copy the contents of .env.template into it. See [Getting An Authentication Token](#getting-an-authentication-token) and [Getting The Channel ID](#getting-the-channel-id)
+2. Run `npm install` to install all dependencies.
 
-3. In the terminal run `npm start` to start the spammer. To stop it manually, `Ctrl + C` while clicked in the terminal.
+3. Create a .env file and copy the contents of .env.template into it. See [Getting An Authentication Token](#getting-an-authentication-token) and [Getting The Channel ID](#getting-the-channel-id)
 
-4. Happy Spamming!!
+4. In the terminal run `npm start` to start the spammer. To stop it manually, `Ctrl + C` while clicked in the terminal.
+
+5. Happy Spamming!!
 
 ### Getting An Authentication Token
 
