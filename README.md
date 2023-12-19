@@ -58,6 +58,10 @@ Discord Spammer is **NOT** a Discord Bot. In order to use this you must make a t
 
 If you have an questions about the app or would like to contribute in any way please feel free to reach out to me!
 
+### Answers
+
+>If you log out of the Discord spam account on your web app the Authentication token might change. If you are receiving a 401 Unauthorized error you likely have to repeat [these](#getting-an-authentication-token) steps to get a new AUTH token.
+
 Email:
 >[muratoreh@gmail.com](mailto:muratoreh@gmail.com?subject=[GitHub]%20Form%20Forwarder)
 
