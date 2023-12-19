@@ -4,7 +4,7 @@
 
 This is a small file used to make staggered requests to the Discord messages API forcing an account to send messages in a specified channel on a set interval.
 
-Discord Spammer is **not** a Discord Bot. In order to use this you must make a throwaway account and use that account's authentication token.
+Discord Spammer is **NOT** a Discord Bot. In order to use this you must make a throwaway account and use that account's authentication token.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -63,3 +63,6 @@ Email:
 
 GitHub account:
 >[https://github.com/HunterMuratore](https://github.com/HunterMuratore)
+
+Portfolio:
+>[https://huntermuratore.com](https://huntermuratore.com)
