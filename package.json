@@ -1,10 +1,10 @@
 {
   "name": "poketwo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.mjs",
   "devDependencies": {},
   "scripts": {
-    "start": "npm run index.mjs"
+    "start": "node index.mjs"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
