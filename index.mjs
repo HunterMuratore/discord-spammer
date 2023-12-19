@@ -16,8 +16,10 @@ const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 async function postMessages() {
     console.log('Started!');
 
+    const limit = 21600; // Number of loop iterations (a.k.a how many messages will be sent) 
+
     try {
-        for (let i = 0; i <= 21600; i++) {
+        for (let i = 0; i <= limit; i++) { // 12 hour loop, adjust by changing limit
             const payload = {
                 content: i.toString(),
             };
