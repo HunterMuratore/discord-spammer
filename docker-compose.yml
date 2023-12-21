@@ -1,0 +1,8 @@
+services:
+  discord_spammer:
+    container_name: discord_spammer
+    image: discord_spammer
+    build: .
+    env_file:
+      - .env
+    restart: unless-stopped
