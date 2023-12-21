@@ -16,12 +16,13 @@ const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 async function postMessages() {
     console.log('Started!');
 
-    const limit = 21600; // Number of loop iterations (a.k.a how many messages will be sent) 
-
     try {
-        for (let i = 0; i <= limit; i++) { // 12 hour loop, adjust by changing limit
+        while (true) {
+            const currentTime = new Date();
+            const formattedTime = currentTime.toLocaleTimeString('en-US', { hour12: false });
+
             const payload = {
-                content: i.toString(),
+                content: formattedTime,
             };
 
             const response = await fetch(url, {
@@ -36,8 +37,6 @@ async function postMessages() {
 
             await sleep(2000); // Sleep for 2 seconds
         }
-
-        console.log('Completed!');
     } catch (error) {
         console.error('Error:', error.message);
     }
